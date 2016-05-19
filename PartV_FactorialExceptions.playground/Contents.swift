@@ -33,9 +33,10 @@ enum FactorialError: ErrorType {
     case TooLarge
     case Meaningless
 }
+var factorialError: ErrorType = FactorialError.TooLarge
+var MeaninglessfactorialError: ErrorType = FactorialError.Meaningless
 
-// And here is the function for you to implement:
-
+print("tooLarge: \(factorialError) meaingLess: \(factorialError)")
 func saferFactorial(n: Int) throws -> Int   {
     return 1
 }

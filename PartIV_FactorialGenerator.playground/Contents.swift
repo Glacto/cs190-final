@@ -25,13 +25,13 @@ class FibonacciGenerator: GeneratorType {
  */
 class FactorialGenerator: GeneratorType {
     var state = (result: 1, multiplier: 1)
-    // NOTE: When you are implementing this. Don't use somebody else's factorial function.
-    // The whole point is to calculate each factorial result simply from the previous one.
-    // E.g., if you have n! and you want (n+1)!, all your code has to do is multiple by n+1.
-    // HINT: I made this a ton easier by supplying the FibonacciGenerator example. It's
-    // like a template for a good solution.
+    func next() -> Int?{
+        let n = 0
+        let result = (n+1)
+        return 1
+        return result
+    }
 }
-
 let aFactorialGenerator = FactorialGenerator()
 
 /*:

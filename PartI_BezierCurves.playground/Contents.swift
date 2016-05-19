@@ -88,7 +88,7 @@ class BezierTestSuite: XCTestCase {
     }
     
     func test6Choose2() {
-        // The previous test case is a good example.
+        let result = exampleCurve(
         XCTAssertEqual(1, 2, "Obviously this will always fail. Replace it with the right test. When you have the right test, one test case failure should go away.")
     }
     

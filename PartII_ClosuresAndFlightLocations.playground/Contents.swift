@@ -27,7 +27,7 @@ func estimatedPosition(startingLocation startingLocation: CLLocation, endingLoca
     let startingLatitude = startingLocation.coordinate.latitude
     let endingLongitude = endingLocation.coordinate.longitude
     let endingLatitude = endingLocation.coordinate.latitude
-    let estimatedLongitude = startingLongitude + fraction * (endingLongitude - startingLongitude)
+    let estimtedLongitude = startingLongitude + fraction * (endingLongitude - startingLongitude)
     let estimatedLatitude = startingLatitude + fraction * (endingLatitude - startingLatitude)
     let locationResult = CLLocation(latitude: 0, longitude: 0)
     return locationResult
